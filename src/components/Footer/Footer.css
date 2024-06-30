@@ -1,0 +1,123 @@
+.footer {
+  margin-top: 30px;
+  background-color: #f7f7f7;
+  padding: 20px 0;
+  border-top: 1px solid #ddd;
+}
+
+.footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer .col-md-3 {
+  width: 25%;
+  padding: 20px;
+}
+
+/* Responsive design */
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .footer .col-md-3 {
+    width: 33.33%;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+  .footer .col-md-3 {
+    width: 50%;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575px) {
+  .footer .col-md-3 {
+    width: 100%;
+  }
+  .footer .row {
+    flex-direction: column;
+  }
+  .footer ul {
+    flex-direction: column;
+  }
+  .social-links ul {
+    flex-direction: column;
+  }
+  .app-download img {
+    width: 80px;
+    height: 30px;
+  }
+}
+
+.footer h4 {
+  font-weight: bold;
+  margin-top: 0;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #747474;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #23527c;
+}
+
+.social-links {
+  margin-top: 20px;
+}
+
+.social-links ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-links li {
+  margin-right: 20px;
+}
+
+.social-links i {
+  font-size: 24px;
+  color: #337ab7;
+}
+
+.app-download {
+  margin-top: 20px;
+}
+
+.app-download img {
+  width: 120px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.app-download img:hover{
+  transform: scale(1.03);
+}
+
+.footer p {
+  font-size: 14px;
+  color: #747474;
+  font-weight: 200;
+  margin-top: 20px;
+}
